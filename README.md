@@ -11,6 +11,7 @@ Why do neural networks generalize? An actively maintained reading list; pull req
 | Author | Title | Year | Type | Remarks |
 |--------|-------|------|------|---------|
 |Hubinger|[Understanding "Deep Double Descent"](https://www.lesswrong.com/posts/FRv7ryoqtvSuqBxuT/understanding-deep-double-descent) |2019|blog post| |
+|Belkin et al.| [Reconciling modern machine learning practice and the bias-variance trade-off](https://arxiv.org/abs/1812.11118)|2019 | paper | | 
 |Nakkiran et al.| [Deep Double Descent: Where Bigger Models and More Data Hurt](https://mltheory.org/deep.pdf) | 2019 | paper | The original deep double descent paper| 
 |Keskar et al.|[On Large-Batch Training For Deep Learning: Generalization Gap and Sharp Minima](https://arxiv.org/abs/1609.04836) | 2017 | paper | | 
 |Dinh et al.|[Sharp Minima Can Generalize For Deep Nets](https://arxiv.org/abs/1703.04933)| 2017 | paper | | 
