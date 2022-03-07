@@ -20,6 +20,7 @@ Why do neural networks generalize? An actively maintained reading list; pull req
 ## Data Manifolds 
 | Author | Title | Year | Type | Remarks |
 |--------|-------|------|------|---------|
+|Carlsson et al. | [On the Local Behavior of Spaces of Natural Images](http://math.uchicago.edu/~shmuel/AAT-readings/Data%20Analysis%20/mumford-carlsson%20et%20al.pdf) | 2008 | paper | |
 |Olah | [Neural Networks, Manifolds, and Topology](https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/) | 2014 | blog post| 
 |Fefferman et al.| [Testing the manifold hypothesis](https://www.ams.org/journals/jams/2016-29-04/S0894-0347-2016-00852-4/) | 2016 | paper | |
 
