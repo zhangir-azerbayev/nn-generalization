@@ -1,11 +1,11 @@
 # Neural Network Generalization Reading List 
-Why do neural networks generalize? An actively maintained reading list. 
+Why do neural networks generalize? An actively maintained reading list; pull requests are appreciated and encouraged. 
 
 ## Preliminaries 
 | Author | Title | Year | Type | Remarks |
 |--------|-------|------|------|---------|
 |Hardt and Recht| ["Generalization"](https://mlstory.org/generalization.html), in *Patterns, Prediction, and Action*| 2021|book chapter|Classical ideas in statistical learning theory and empirical phenomena in deep learning |
-|Friedman, Hastie, and Tibshirani | "Model Assesment and Selection",in *Elements of Statistical Learning* | 2008 |book chapter| A good overview of classical learning theory. The ideas that explain classical ML algorithms, but seem to contradict empirical phenomena in deep learning| 
+|Friedman, Hastie, and Tibshirani | "Model Assesment and Selection", in *Elements of Statistical Learning* | 2008 |book chapter| A good overview of classical learning theory. The ideas that explain classical ML algorithms, but seem to contradict empirical phenomena in deep learning| 
 
 ## Deep Double Descent 
 | Author | Title | Year | Type | Remarks |
@@ -20,11 +20,35 @@ Why do neural networks generalize? An actively maintained reading list.
 ## Data Manifolds 
 | Author | Title | Year | Type | Remarks |
 |--------|-------|------|------|---------|
-|Olah | [Neural Networks, Manifolds, and Topology](https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/) | 2014 | blog post| |Fefferman et al.| [Testing the manifold hypothesis](https://www.ams.org/journals/jams/2016-29-04/S0894-0347-2016-00852-4/) | 2016 | paper | |
+|Olah | [Neural Networks, Manifolds, and Topology](https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/) | 2014 | blog post| 
+|Fefferman et al.| [Testing the manifold hypothesis](https://www.ams.org/journals/jams/2016-29-04/S0894-0347-2016-00852-4/) | 2016 | paper | |
 
 ## Generalization Bounds
+| Author | Title | Year | Type | Remarks |
+|--------|-------|------|------|---------|
+|Dziugaite and Roy| [Computing Nonvacuous Generalization Bounds for Deep (Stochastic) Neural Networks with Many More Parameters than Training Data](https://arxiv.org/abs/1703.11008) | 2017 | paper | | 
+|Arora et al. | [Stronger generalization bounds for deep nets via a compression approach](https://arxiv.org/abs/1802.05296) | 2018 | paper | | 
+|Bubeck and Sellke| [A Universal Law of Robustness via Isoperimetry](https://arxiv.org/abs/2105.12806) | 2021 | paper | Overparametrized models learn smooth functions. |
+|HaoChen et al.|[Provable Guarantees for Self-Supervised Deep Learning with Spectral Contrastive Loss](https://arxiv.org/abs/2106.04156) | 2021 | paper |  | 
+
+
+
 
 ## Optimization Dynamics 
+| Author | Title | Year | Type | Remarks |
+|--------|-------|------|------|---------|
+|Zhang et al.| [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530) | 2016 | paper | |
+|Zhang et al.| [Theory of Deep Learning III: Generalization Properties of SGD](https://cbmm.mit.edu/sites/default/files/publications/CBMM-Memo-067.pdf) | 2017 | monograph | | 
+|Jacot et al.| [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572) | 2018 | paper | | 
+|Wang and Isola| [Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere](https://arxiv.org/abs/2005.10242) | 2020 | paper | | 
+|Power et al.| [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf) | 2021 | paper | | 
+
 
 ## Scaling Laws and Pre-training
+| Author | Title | Year | Type | Remarks |
+|--------|-------|------|------|---------|
+|Kaplan et al.| [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)|2020| paper | | 
+|Tripuraneni et al.| [On the Theory of Transfer Learning: The Importance of Task Diversity](https://arxiv.org/abs/2006.11650)|2020| paper | |
+|Bommasani et al.| [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) | 2021 | monograph | |
+
 
