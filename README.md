@@ -1,11 +1,12 @@
 # Neural Network Generalization Reading List 
 Why do neural networks generalize? An actively maintained reading list; pull requests are appreciated and encouraged. 
 
-## Preliminaries 
+## Preliminaries and Overviews 
 | Author | Title | Year | Type | Remarks |
 |--------|-------|------|------|---------|
 |Hardt and Recht| ["Generalization"](https://mlstory.org/generalization.html), in *Patterns, Prediction, and Action*| 2021|book chapter|Classical ideas in statistical learning theory and empirical phenomena in deep learning |
 |Friedman, Hastie, and Tibshirani | "Model Assesment and Selection", in *Elements of Statistical Learning* | 2008 |book chapter| A good overview of classical learning theory. Classical learning theory explains traditional ML algorithms, but seems to contradict empirical phenomena in deep learning| 
+|Poggio| [Theoretical issues in deep networks](https://www.pnas.org/doi/10.1073/pnas.1907369117) | 2020 | paper | By one of the founders of computational neuorscience. |
 
 ## Deep Double Descent 
 | Author | Title | Year | Type | Remarks |
