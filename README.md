@@ -53,5 +53,6 @@ Why do neural networks generalize? An actively maintained reading list; pull req
 |Kaplan et al.| [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)|2020| paper | | 
 |Tripuraneni et al.| [On the Theory of Transfer Learning: The Importance of Task Diversity](https://arxiv.org/abs/2006.11650)|2020| paper | |
 |Bommasani et al.| [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) | 2021 | monograph | |
+|Wei et al. | [Emergent Abilities of Large Language Models](https://arxiv.org/abs/2206.07682) | 2022 | paper| |
 
 
