@@ -22,6 +22,7 @@ It is easy to see that the space of neural networks provides good coverage of pr
 |Hardt and Recht| ["Generalization"](https://mlstory.org/generalization.html), in *Patterns, Prediction, and Action*| 2021|book chapter|Classical ideas in statistical learning theory and empirical phenomena in deep learning |
 |Friedman, Hastie, and Tibshirani | "Model Assesment and Selection", in *Elements of Statistical Learning* | 2008 |book chapter| A good overview of classical learning theory. Classical learning theory explains traditional ML algorithms, but seems to contradict empirical phenomena in deep learning| 
 |Poggio| [Theoretical issues in deep networks](https://www.pnas.org/doi/10.1073/pnas.1907369117) | 2020 | paper | By one of the founders of computational neuorscience. |
+|Roberts, Yaida, and Hanin| [Principles of Deep Learning Theory](https://arxiv.org/abs/2106.10165) | 2022 | book | A tour de force. One of the few compelling analyses of the dynamics of deep networks.|
 
 ## Deep Double Descent 
 | Author | Title | Year | Type | Remarks |
