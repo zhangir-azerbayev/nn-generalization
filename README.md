@@ -32,6 +32,15 @@ It is easy to see that the space of neural networks provides good coverage of pr
 |Bommasani et al.| [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) | 2021 | monograph | |
 |Wei et al. | [Emergent Abilities of Large Language Models](https://arxiv.org/abs/2206.07682) | 2022 | paper| |
 
+## Optimization Dynamics 
+| Author | Title | Year | Type | Remarks |
+|--------|-------|------|------|---------|
+|Zhang et al.| [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530) | 2016 | paper | |
+|Zhang et al.| [Theory of Deep Learning III: Generalization Properties of SGD](https://cbmm.mit.edu/sites/default/files/publications/CBMM-Memo-067.pdf) | 2017 | monograph | | 
+|Jacot et al.| [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572) | 2018 | paper | | 
+|Wang and Isola| [Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere](https://arxiv.org/abs/2005.10242) | 2020 | paper | | 
+|Power et al.| [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf) | 2021 | paper | | 
+
 
 ## Deep Double Descent 
 | Author | Title | Year | Type | Remarks |
@@ -58,16 +67,3 @@ It is easy to see that the space of neural networks provides good coverage of pr
 |Arora et al. | [Stronger generalization bounds for deep nets via a compression approach](https://arxiv.org/abs/1802.05296) | 2018 | paper | | 
 |Bubeck and Sellke| [A Universal Law of Robustness via Isoperimetry](https://arxiv.org/abs/2105.12806) | 2021 | paper | Overparametrized models learn smooth functions. |
 |HaoChen et al.|[Provable Guarantees for Self-Supervised Deep Learning with Spectral Contrastive Loss](https://arxiv.org/abs/2106.04156) | 2021 | paper |  | 
-
-
-
-
-## Optimization Dynamics 
-| Author | Title | Year | Type | Remarks |
-|--------|-------|------|------|---------|
-|Zhang et al.| [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530) | 2016 | paper | |
-|Zhang et al.| [Theory of Deep Learning III: Generalization Properties of SGD](https://cbmm.mit.edu/sites/default/files/publications/CBMM-Memo-067.pdf) | 2017 | monograph | | 
-|Jacot et al.| [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572) | 2018 | paper | | 
-|Wang and Isola| [Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere](https://arxiv.org/abs/2005.10242) | 2020 | paper | | 
-|Power et al.| [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf) | 2021 | paper | | 
-
