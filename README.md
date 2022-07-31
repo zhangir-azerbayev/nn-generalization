@@ -1,5 +1,20 @@
 # Neural Network Generalization Reading List 
-Why do neural networks generalize? An actively maintained reading list; pull requests are appreciated and encouraged. 
+Why do neural networks generalize? 
+
+Consider the problem of learning to map some input $X$ to an output $Y$ given some finite number of training examples $M  = \{(x,y)\}$. All learning algorithms are equally bad at this problem, because in general, knowing $M$ tells you nothing about what the rest of $Y^X$ looks like (where $Y^X$ denotes the set of functions from $X$ into $Y$). This is the famous no-free lunch theorem in statistical learning theory. David Hume expressed some version of this theorem before we had the tools to give it a rigorous basis. 
+
+Does this mean learning from data is impossible? Clearly not, because humans do it all the time. The key insight is that we don't care about abritrary learning problems, rather we care about structured learning problems, i.e problems where $Y^X$ is in some sense compressible and thus a finite number of $(x,y)$ pairs do in fact tell you something about the rest of $Y^X$. 
+
+Given $M$, the ideal learner would find the shortest program that generates the dataset, where "short" can be formalized as Kolmogorov complexity. This requirement essentially encodes Occam's razor. However, a basic result in algorithmic information theory states that finding such a shortest program is uncomputable. 
+
+Does this mean learning from data is uncomputable? Not quite, because it is not necessary that our learner search the entirety of program space. Just as we can get away with using finite-precision floats while the reals are uncomputable, is there some dense subset of program space we can efficiently search through? 
+
+The last 10 years of AI research have empirically that searching through the space of neural networks by using stochastic gradient descent to optimize a loss function over the data is a fantastic practical approximation to computing the shortest data-generating program. This fact is remarkable, and is certainly the most important discovery in the history of AI. Future generations may even judge it as the most important discovery in human history. 
+
+It is important to think of neural networks not only as a special class of functions, such as logistic regressors or support vector machines, but as a programming paradigm. That is, a very clever programmer could manually deduce the weights that yield an arbitrary program, just as he might write lines of C or Python. Training a neural network is truly akin to searching program space. 
+
+It is easy to see that the space of neural networks provides good coverage of program space, but it is a mystery why optimizing a loss function with SGD is a useful search procedure that effectively approximates looking for the shortest data-generating program. The readings in this list comprise some of our early efforts to unravel this mystery. 
+
 
 ## Preliminaries and Overviews 
 | Author | Title | Year | Type | Remarks |
