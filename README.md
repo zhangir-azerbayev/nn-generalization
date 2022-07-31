@@ -24,6 +24,15 @@ It is easy to see that the space of neural networks provides good coverage of pr
 |Poggio| [Theoretical issues in deep networks](https://www.pnas.org/doi/10.1073/pnas.1907369117) | 2020 | paper | By one of the founders of computational neuorscience. |
 |Roberts, Yaida, and Hanin| [Principles of Deep Learning Theory](https://arxiv.org/abs/2106.10165) | 2022 | book | A tour de force. One of the few compelling analyses of the dynamics of deep networks.|
 
+## Scaling Laws and Pre-training
+| Author | Title | Year | Type | Remarks |
+|--------|-------|------|------|---------|
+|Kaplan et al.| [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)|2020| paper | | 
+|Tripuraneni et al.| [On the Theory of Transfer Learning: The Importance of Task Diversity](https://arxiv.org/abs/2006.11650)|2020| paper | |
+|Bommasani et al.| [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) | 2021 | monograph | |
+|Wei et al. | [Emergent Abilities of Large Language Models](https://arxiv.org/abs/2206.07682) | 2022 | paper| |
+
+
 ## Deep Double Descent 
 | Author | Title | Year | Type | Remarks |
 |--------|-------|------|------|---------|
@@ -61,14 +70,4 @@ It is easy to see that the space of neural networks provides good coverage of pr
 |Jacot et al.| [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572) | 2018 | paper | | 
 |Wang and Isola| [Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere](https://arxiv.org/abs/2005.10242) | 2020 | paper | | 
 |Power et al.| [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf) | 2021 | paper | | 
-
-
-## Scaling Laws and Pre-training
-| Author | Title | Year | Type | Remarks |
-|--------|-------|------|------|---------|
-|Kaplan et al.| [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)|2020| paper | | 
-|Tripuraneni et al.| [On the Theory of Transfer Learning: The Importance of Task Diversity](https://arxiv.org/abs/2006.11650)|2020| paper | |
-|Bommasani et al.| [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) | 2021 | monograph | |
-|Wei et al. | [Emergent Abilities of Large Language Models](https://arxiv.org/abs/2206.07682) | 2022 | paper| |
-
 
