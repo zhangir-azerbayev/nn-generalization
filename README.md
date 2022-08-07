@@ -65,5 +65,5 @@ It is easy to see that the space of neural networks provides good coverage of pr
 |--------|-------|------|------|---------|
 |Dziugaite and Roy| [Computing Nonvacuous Generalization Bounds for Deep (Stochastic) Neural Networks with Many More Parameters than Training Data](https://arxiv.org/abs/1703.11008) | 2017 | paper | | 
 |Arora et al. | [Stronger generalization bounds for deep nets via a compression approach](https://arxiv.org/abs/1802.05296) | 2018 | paper | | 
-|Bubeck and Sellke| [A Universal Law of Robustness via Isoperimetry](https://arxiv.org/abs/2105.12806) | 2021 | paper | Overparametrized models learn smooth functions. |
+|Bubeck and Sellke| [A Universal Law of Robustness via Isoperimetry](https://arxiv.org/abs/2105.12806) | 2021 | paper | Overparametrized models learn smooth functions. Distinguished among theory papers in that the result both seems quite general and quite relevant.|
 |HaoChen et al.|[Provable Guarantees for Self-Supervised Deep Learning with Spectral Contrastive Loss](https://arxiv.org/abs/2106.04156) | 2021 | paper |  | 
